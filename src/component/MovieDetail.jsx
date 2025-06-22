@@ -68,7 +68,7 @@ function MovieDetail() {
 
   const fetchData = async () => {
     try {
-      const res = await axios.get(`http://localhost:3000/Movies?id=${movieId}`);
+      const res = await axios.get(`http://localhost:10000/Movies?id=${movieId}`);
       if (res.data.length === 0) {
         console.error("Movie not found");
       } else {
