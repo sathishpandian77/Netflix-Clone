@@ -1,0 +1,83 @@
+
+.Signup-background {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+} 
+
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+
+.signup-form {
+  background: #fff;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  max-width: 400px;
+}
+
+.signup-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.signup-form input {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: 0.3s;
+  font-size: 16px;
+}
+
+.signup-form input:focus {
+  border-color: #764ba2;
+  box-shadow: 0 0 5px rgba(118, 75, 162, 0.5);
+  outline: none;
+}
+
+.signup-form button {
+  width: 100%;
+  background: #667eea;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.signup-form button:hover {
+  background: #5a67d8;
+}
+
+.signup-form .error {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.signup-form .signin-link {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.signup-form .signin-link a {
+  color: #667eea;
+  text-decoration: none;
+}  

@@ -1,0 +1,238 @@
+ 
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+    color: white;
+  margin-top: -20px;
+}
+
+.auth-buttons button {
+  margin-left: 10px;
+  padding: 8px 16px;
+  border: none;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.auth-buttons button:hover {
+  background-color: darkred;
+}
+
+.homepage-background {
+  background-image: url('/src/assets/light-color-texture-wallpaper-preview.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+.FIRST{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: red;
+  font-size: 40px;
+  font-weight: 900;
+  margin-top: 18px;
+  margin-left: 40px;
+     }
+     .wrapper {
+    position: relative;
+    display: inline-block;
+}
+.wrapper img {
+    display: block; 
+      width: 1278px;
+      height: 550px;
+      object-fit: cover;
+      opacity: 0.2;
+      margin-top: -30px;
+      margin-left: 36px;
+      border-image: fill;
+      border-radius: 7%;
+}
+.text-overlay {
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    top: 135px;
+    left: 100px;
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+}
+.text-overlay2{
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    top: 290px;
+    left: 100px;
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+}
+.text-overlay3{
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    top: 340px;
+    left: 100px;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+}
+.User-Text{
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    top: 290px;
+    left: 100px;
+    color: white;
+    font-size: 33px;
+    font-weight: bold;
+}
+
+        .email-signup {
+          position: absolute ;
+          top: 380px;
+          left: 100px;
+          gap: 10px;
+      }
+      
+      .email-signup input {
+          padding: 15px;
+          width: 100%;
+          max-width: 500px;
+          border: none;
+          border-radius: 4px;
+      }
+      
+      .email-signup button {
+          padding: 15px 30px;
+          background: #e50914;
+          color: white;
+          border: none;
+          border-radius: 4px;
+          font-weight: bold;
+          cursor: pointer;
+      }
+      #movies {
+        display: flex;
+        justify-content: space-around;
+        padding: 30px 0;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    .movie {
+        position: relative;
+        width: 220px;
+        height: 320px;
+        border-radius: 8px;
+        overflow: hidden;
+        cursor: pointer;
+    }
+
+    .movie img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.3s ease;
+    }
+
+    .movie:hover img {
+        transform: scale(1.1);
+    }
+
+    .movie .text {
+        position: absolute;
+        font-family: 'Times New Roman', Times, serif;
+        top: 10px;
+        left: 10px;
+        text-align: center;
+        font-size: 40px;
+        color: #fff;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+        font-weight: bold;
+    }
+    .plan{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 24px;
+        color: white;
+        font-weight: bold;
+        margin-left: 25px;
+    }
+    #plan-details {
+        display: flex;
+        justify-content: space-around;
+        padding: 30px 0;
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+    .subscription {
+        position: relative;
+        width: 270px;
+        height: 275px;
+        border-radius: 8px;
+        overflow: hidden;
+        cursor: pointer;
+    }
+
+    .subscription img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.3s ease;
+    }
+
+    .subscription:hover img {
+        transform: scale(1.3);
+    }
+
+    .subscription .text {
+        position: absolute;
+        font-family: 'Times New Roman', Times, serif;
+        top: 10px;
+        left: 10px;
+        text-align: center;
+        font-size: 20px;
+        color: #fff;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+        font-weight: bold;
+    }
+    .subscription .text2 {
+        position: absolute;
+        font-family: 'Times New Roman', Times, serif;
+        top: 10px;
+        left: 10px;
+        text-align: center;
+        font-size: 20px;
+        color: #fff;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+        font-weight: bold;
+    } 
+
+    .subscribe-message {
+  text-align: center;
+  margin: 40px auto;
+  color: white;
+}
+
+.subscribe-message button {
+  padding: 10px 20px;
+  background-color: red;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.auth-buttons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.welcome-msg {
+  color: white;
+  font-weight: bold;
+  margin-right: 10px;
+}
