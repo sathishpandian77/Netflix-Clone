@@ -236,3 +236,135 @@
   font-weight: bold;
   margin-right: 10px;
 }
+
+
+/* Mobile devices (≤ 600px) */
+@media screen and (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .FIRST {
+    font-size: 28px;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+
+  .auth-buttons {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10px;
+  }
+
+  .wrapper img {
+    width: 100%;
+    height: auto;
+    border-radius: 0;
+    margin: 0;
+  }
+
+  .text-overlay,
+  .text-overlay2,
+  .text-overlay3,
+  .User-Text {
+    font-size: 22px;
+    left: 20px;
+    top: auto;
+    position: static;
+    margin: 10px 0;
+  }
+
+  .email-signup {
+    position: static;
+    width: 100%;
+    padding: 0 20px;
+    margin-top: 10px;
+  }
+
+  .email-signup input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  #movies {
+    justify-content: center;
+  }
+
+  .movie {
+    width: 150px;
+    height: 220px;
+  }
+
+  .movie .text {
+    font-size: 24px;
+  }
+}
+
+/* Tablets (601px to 900px) */
+@media screen and (min-width: 601px) and (max-width: 900px) {
+  .wrapper img {
+    width: 95%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .text-overlay,
+  .text-overlay2,
+  .text-overlay3,
+  .User-Text {
+    font-size: 32px;
+    left: 50px;
+    top: auto;
+    position: static;
+    margin: 15px 0;
+  }
+
+  .email-signup {
+    position: static;
+    padding: 0 40px;
+    margin-top: 10px;
+  }
+
+  .email-signup input {
+    width: 100%;
+  }
+
+  #movies {
+    gap: 15px;
+  }
+
+  .movie {
+    width: 180px;
+    height: 270px;
+  }
+}
+
+/* Large desktops (≥ 1200px) */
+@media screen and (min-width: 1200px) {
+  .wrapper img {
+    width: 1278px;
+    height: 550px;
+  }
+
+  .text-overlay {
+    font-size: 60px;
+  }
+
+  .text-overlay2 {
+    font-size: 26px;
+  }
+
+  .text-overlay3 {
+    font-size: 17px;
+  }
+
+  .User-Text {
+    font-size: 33px;
+  }
+}
+
+
+
+
